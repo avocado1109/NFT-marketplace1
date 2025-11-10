@@ -43,8 +43,8 @@ describe("Auth", () => {
 	});
 
 	/*
-  * Test the /POST route
-  */
+	* Test the /POST route
+	*/
 	describe("/POST Register", () => {
 		it("It should Register user", (done) => {
 			chai.request(server)
@@ -60,8 +60,8 @@ describe("Auth", () => {
 	});
 
 	/*
-  * Test the /POST route
-  */
+	* Test the /POST route
+	*/
 	describe("/POST Login", () => {
 		it("it should Send account not confirm notice.", (done) => {
 			chai.request(server)
@@ -76,8 +76,8 @@ describe("Auth", () => {
 	});
 
 	/*
-  * Test the /POST route
-  */
+	* Test the /POST route
+	*/
 	describe("/POST Resend  Confirm OTP", () => {
 		it("It should resend  confirm OTP", (done) => {
 			chai.request(server)
@@ -94,8 +94,8 @@ describe("Auth", () => {
 	});
 
 	/*
-  * Test the /POST route
-  */
+	* Test the /POST route
+	*/
 	describe("/POST Verify Confirm OTP", () => {
 		it("It should verify confirm OTP", (done) => {
 			chai.request(server)
@@ -109,8 +109,8 @@ describe("Auth", () => {
 	});
 
 	/*
-  * Test the /POST route
-  */
+	* Test the /POST route
+	*/
 	describe("/POST Login", () => {
 		it("It should send validation error for Login", (done) => {
 			chai.request(server)
@@ -124,8 +124,8 @@ describe("Auth", () => {
 	});
 
 	/*
-  * Test the /POST route
-  */
+	* Test the /POST route
+	*/
 	describe("/POST Login", () => {
 		it("it should Send failed user Login", (done) => {
 			chai.request(server)
@@ -139,8 +139,8 @@ describe("Auth", () => {
 	});
 
 	/*
-  * Test the /POST route
-  */
+	* Test the /POST route
+	*/
 	describe("/POST Login", () => {
 		it("it should do user Login", (done) => {
 			chai.request(server)
